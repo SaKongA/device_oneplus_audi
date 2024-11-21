@@ -73,7 +73,7 @@ BOARD_BOOTCONFIG := \
     androidboot.selinux=permissive
 
 # Kernel (prebuilt)
-PREBUILT_PATH := device/xiaomi/audi-prebuilt
+PREBUILT_PATH := device/oneplus/audi-prebuilt
 TARGET_NO_KERNEL_OVERRIDE := true
 TARGET_KERNEL_SOURCE := $(PREBUILT_PATH)/kernel-headers
 BOARD_PREBUILT_DTBIMAGE_DIR := $(PREBUILT_PATH)/images/dtbs/
