@@ -74,13 +74,13 @@ BOARD_BOOTCONFIG := \
 
 # Kernel (prebuilt)
 PREBUILT_PATH := device/oneplus/audi-prebuilt
-TARGET_NO_KERNEL_OVERRIDE := true
-TARGET_KERNEL_SOURCE := $(PREBUILT_PATH)/kernel-headers
 TARGET_KERNEL_CONFIG := audi_defconfig
-BOARD_PREBUILT_DTBIMAGE_DIR := $(PREBUILT_PATH)/images/dtbs/
+TARGET_PREBUILT_KERNEL := $(PREBUILT_PATH)/images/kernel
+TARGET_PREBUILT_DTB := $(PREBUILT_PATH)/images/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(PREBUILT_PATH)/images/dtbo.img
+TARGET_FORCE_PREBUILT_KERNEL := true
 PRODUCT_COPY_FILES += \
-	$(PREBUILT_PATH)/images/kernel:kernel
+    $(PREBUILT_PATH)/images/dtb.img:dtb.img
 
 # Kernel modules
 DLKM_MODULES_PATH := $(PREBUILT_PATH)/modules/vendor_dlkm
