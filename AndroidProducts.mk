@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_audi.mk
+    $(LOCAL_DIR)/miku_audi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_audi-user \
-    lineage_audi-userdebug \
-    lineage_audi-eng
+    miku_audi-user \
+    miku_audi-userdebug \
+    miku_audi-eng

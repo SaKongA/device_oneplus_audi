@@ -8,13 +8,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Miku stuff.
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 # Inherit from audi device
 $(call inherit-product, device/oneplus/audi/device.mk)
 
-PRODUCT_NAME := lineage_audi
+PRODUCT_NAME := miku_audi
 PRODUCT_DEVICE := audi
 PRODUCT_MANUFACTURER := oneplus
 PRODUCT_BRAND := OnePlus
