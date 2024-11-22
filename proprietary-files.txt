@@ -5609,11 +5609,9 @@ vendor/bin/athdiag
 vendor/bin/audioadsprpcd
 vendor/bin/audiodsd2pcmtest
 vendor/bin/ccid_daemon_nr
-vendor/bin/checkpoint_gc
 vendor/bin/cnss_cli
 vendor/bin/color_sampling_test
 vendor/bin/color_sampling_tool
-vendor/bin/cplay
 vendor/bin/ctrlapp_dut
 vendor/bin/debug-diag
 vendor/bin/diag-router
@@ -5705,7 +5703,6 @@ vendor/bin/qvrservicetest
 vendor/bin/qwesd
 vendor/bin/rpmbClient
 vendor/bin/sec_nvm
-vendor/bin/sg_write_buffer
 vendor/bin/shsusrd
 vendor/bin/sigma_dut
 vendor/bin/smcinvoke_example
