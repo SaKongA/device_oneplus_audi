@@ -4448,7 +4448,6 @@ vendor/lib64/android.hardware.health@2.0.so
 vendor/lib64/android.hardware.health@2.1.so
 
 # Keymaster
-system_ext/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/permissions/android.hardware.hardware_keystore.xml
 vendor/etc/permissions/android.hardware.keystore.app_attest_key.xml
@@ -4467,13 +4466,10 @@ vendor/lib64/android.hardware.keymaster@3.0.so
 vendor/lib64/android.hardware.keymaster@4.0.so
 vendor/lib64/android.hardware.keymaster@4.1.so
 vendor/lib64/android.system.keystore2-V1-ndk.so
-vendor/lib64/android.system.wifi.keystore@1.0.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libkeymaster_messages.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/libqtikeymaster4.so
 vendor/lib64/libspcom.so
 
@@ -4762,26 +4758,17 @@ odm/bin/hw/vendor.oplus.hardware.rpmh-V1-service
 odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
 odm/bin/hw/vendor.oplus.hardware.urcc-service
 odm/bin/hw/vendor.oplus.hardware.vibrator-service
-odm/bin/hw/vendor.oplus.hardware.wifi-aidl-service
 odm/bin/init.oplus.btChangePermission.sh
 odm/bin/init.oplus.storage.io_metrics.sh
-odm/bin/init.oplus.wifi.sh
-odm/bin/init.vendor.wifi.autochmod.sh
-odm/bin/init.vendor.wifi.smart_antenna_switch.sh
-odm/bin/init.vendor.wifiaction.sh
 odm/bin/oplus_sensor_fb
 odm/bin/oplus_sensor_ssr
 odm/bin/oplus_sensor_test
 odm/bin/oplus_sys_daemon
-odm/bin/wififtm
-odm/bin/wifisar
-odm/bin/wifi_diag
 odm/etc/bsp_storage_core_config_update.xml
 odm/etc/devices_config/devices_config.json
 odm/etc/devices_config/keyboard_config.json
 odm/etc/init/android.hardware.power.stats-service.oplus.rc
 odm/etc/init/hw/init.oplus.display.rc
-odm/etc/init/hw/init.oplus.wifi.rc
 odm/etc/init/init.oplus.bt.rc
 odm/etc/init/init.oplus.sensor.rc
 odm/etc/init/init.oplus.storage.io_metrics.rc
@@ -4806,7 +4793,6 @@ odm/etc/init/vendor.oplus.hardware.riskdetect-V1-service.rc
 odm/etc/init/vendor.oplus.hardware.rpmh-V1-service.rc
 odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
 odm/etc/init/vendor.oplus.hardware.urcc-service.rc
-odm/etc/init/vendor.oplus.hardware.wifi-aidl-service-qcom.rc
 odm/etc/init/vendor_engineermode.rc
 odm/etc/media_codecs_vendor_oplus.xml
 odm/etc/oplus.fstab
@@ -4834,18 +4820,6 @@ odm/etc/permissions/vendor-oplus-hardware-touch-V1.xml
 odm/etc/permissions/vendor.oplus.hardware.rpmh-V1.xml
 odm/etc/sensor/config/palawan_mtp_oplus_measurement.json
 odm/etc/sensor/config/palawan_mtp_oplus_rotation_detect.json
-odm/etc/wifi.cfg
-odm/etc/wifi/bin_version
-odm/etc/wifi/cnss_diag.conf
-odm/etc/wifi/cnss_diag_always_on.conf
-odm/etc/wifi/kiwi/regdb.bin
-odm/etc/wifi/kiwi/regdb_version
-odm/etc/wifi/qca6750/bdwlan.elf
-odm/etc/wifi/qca6750/regdb.bin
-odm/etc/wifi/regdb.bin
-odm/etc/wifi/regdb_version
-odm/etc/wifi/sar-vendor-cmd.xml
-odm/etc/wifi/wifisar.cfg
 odm/init.oplus.face.rc
 odm/init.oplus.seccommon.rc
 odm/lib/hw/vendor.oplus.hardware.binaural_record-impl.so
@@ -4954,9 +4928,6 @@ odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl.so
 odm/lib64/vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl.so
 odm/vendor.oplus.hardware.cwb-timestamp
 odm/vendor.oplus.hardware.displaypanelfeature-timestamp
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
-odm/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini
-odm/vendor/etc/wifi/WCNSS_qcom_cfg_roam.ini
 vendor/etc/oplus_avb.pubkey
 vendor/etc/oplus_Widevine_licenses.pfm
 vendor/lib/vendor.oplus.hardware.appradioaidl-V1-ndk.so
@@ -4980,7 +4951,6 @@ vendor/lib64/vendor.oplus.hardware.olc2-V2-ndk.so
 vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so
 vendor/lib64/vendor.oplus.hardware.radio-V2-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
-vendor/lib64/vendor.oplus.hardware.wifi.supplicant-V4-ndk.so
 
 # Oppo
 vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm
@@ -5644,19 +5614,7 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 # WiFi
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
-vendor/bin/hw/android.hardware.wifi-service
-vendor/etc/init/android.hardware.wifi-service.rc
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/lib/android.hardware.wifi.hostapd-V1-ndk.so
-vendor/lib/android.hardware.wifi.supplicant-V1-ndk.so
 vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so
-vendor/lib64/android.hardware.wifi-V1-ndk.so
-vendor/lib64/android.hardware.wifi.hostapd-V1-ndk.so
-vendor/lib64/android.hardware.wifi.supplicant-V1-ndk.so
-vendor/lib64/android.hardware.wifi.supplicant-V2-ndk.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 
 # Misc
@@ -5800,7 +5758,6 @@ vendor/bin/vppserviceunittest
 vendor/bin/wdsdaemon
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
-vendor/bin/wifilearner
 vendor/bin/xtwifi-client
 vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm
 vendor/etc/ASR_binary/Whisper/speech_float.eai
@@ -5903,9 +5860,6 @@ vendor/etc/gnss_antenna_info.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/hal_uuid_map_config.xml
 vendor/etc/Hapticsconfig.xml
-vendor/etc/hostapd/hostapd.accept
-vendor/etc/hostapd/hostapd.deny
-vendor/etc/hostapd/hostapd_default.conf
 vendor/etc/init.qti.fm.sh
 vendor/etc/init/android.hardware.boot-service.qti.rc
 vendor/etc/init/android.hardware.contexthub-service.qmi.rc
@@ -6241,7 +6195,6 @@ vendor/lib/libvideooptfeature.so
 vendor/lib/libvmmem.so
 vendor/lib/libvndfwk_detect_jni.qti.so
 vendor/lib/libvndfwk_detect_jni.qti_vendor.so
-vendor/lib/libwifi-hal-ctrl.so
 vendor/lib/libwifiobserver.so
 vendor/lib/libWlanServiceJni.so
 vendor/lib/qcrild_libqcrilnr.so
@@ -6799,7 +6752,6 @@ vendor/lib64/libVoiceSdk.so
 vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/libvui_intf.so
-vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwifiobserver.so
 vendor/lib64/libWlanServiceJni.so
 vendor/lib64/lib_bt_ble.so
