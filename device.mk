@@ -99,6 +99,12 @@ PRODUCT_PACKAGES += \
     vndservice \
     vndservicemanager
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+PRODUCT_COPY_FILES += \
+    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
@@ -114,14 +120,16 @@ PRODUCT_PACKAGES += \
     wpa_cli \
     wpa_supplicant \
     wpa_supplicant.conf
+
 PRODUCT_PACKAGES += \
     android.hardware.wifi.supplicant-V1-ndk.vendor \
     android.hardware.wifi.supplicant-V2-ndk.vendor \
     android.hardware.wifi.hostapd-V1-ndk.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6750/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
-    
+
 # Vendor
 $(call inherit-product, vendor/oneplus/audi/audi-vendor.mk)

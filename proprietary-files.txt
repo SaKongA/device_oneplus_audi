@@ -560,7 +560,6 @@ odm/lib/libmpbase.so
 odm/lib/libnpu.so
 odm/lib/libOGLManager.so
 odm/lib/liboplus-uah-client.so
-odm/lib/liboplusvibratoreffect.so
 odm/lib/liboplus_service.so
 odm/lib/liboplus_spat_audiox.so
 odm/lib/liboppo_audiox.so
@@ -715,7 +714,6 @@ odm/lib64/liboplus-uah-client.so
 odm/lib64/liboplusblur_capture_api.so
 odm/lib64/libOPLUSMotionDetection.so
 odm/lib64/libOplusPDCore.so
-odm/lib64/liboplusvibratoreffect.so
 odm/lib64/libOPLUS_SCPortrait.so
 odm/lib64/liboplus_service.so
 odm/lib64/liboplus_spat_audiox.so
@@ -4757,7 +4755,6 @@ odm/bin/hw/vendor.oplus.hardware.riskdetect-V1-service
 odm/bin/hw/vendor.oplus.hardware.rpmh-V1-service
 odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
 odm/bin/hw/vendor.oplus.hardware.urcc-service
-odm/bin/hw/vendor.oplus.hardware.vibrator-service
 odm/bin/init.oplus.btChangePermission.sh
 odm/bin/init.oplus.storage.io_metrics.sh
 odm/bin/oplus_sensor_fb
@@ -4845,7 +4842,6 @@ odm/lib/vendor.oplus.hardware.misc-V1-ndk.so
 odm/lib/vendor.oplus.hardware.olc2-V1-ndk.so
 odm/lib/vendor.oplus.hardware.olc2-V2-ndk.so
 odm/lib/vendor.oplus.hardware.oplusSensor-V1-ndk.so
-odm/lib/vendor.oplus.hardware.oplusvibrator-V1-ndk.so
 odm/lib/vendor.oplus.hardware.orms@1.0.so
 odm/lib/vendor.oplus.hardware.ormsHalService-V1-ndk.so
 odm/lib/vendor.oplus.hardware.osense.client-V1-ndk.so
@@ -4864,7 +4860,6 @@ odm/lib/vendor.oplus.hardware.touch-V2-ndk.so
 odm/lib/vendor.oplus.hardware.transfer-V1-ndk.so
 odm/lib/vendor.oplus.hardware.transmessage-V1-ndk_platform.so
 odm/lib/vendor.oplus.hardware.urcc-V1-ndk.so
-odm/lib/vendor.oplus.hardware.vibrator-V1-ndk.so
 odm/lib/vendor.oplus.hardware.virtual_device.audio-impl.so
 odm/lib/vendor.oplus.hardware.virtual_device.audio-V1-ndk.so
 odm/lib/vendor.oplus.hardware.virtual_device.camera.hal@3.3.so
@@ -4897,7 +4892,6 @@ odm/lib64/vendor.oplus.hardware.misc-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.olc2-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.olc2-V2-ndk.so
 odm/lib64/vendor.oplus.hardware.oplusSensor-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.oplusvibrator-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.ormsHalService-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so
@@ -4916,7 +4910,6 @@ odm/lib64/vendor.oplus.hardware.touch-V2-ndk.so
 odm/lib64/vendor.oplus.hardware.transfer-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.transmessage-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.vibrator-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.virtual_device.audio-impl.so
 odm/lib64/vendor.oplus.hardware.virtual_device.audio-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.virtual_device.camera.hal@3.3.so
@@ -5559,22 +5552,6 @@ vendor/lib64/libtime_genoff.so
 # UBWC
 vendor/lib64/libstreamparser.so
 
-# Vibrator
-odm/etc/aac_richtap.config
-odm/etc/init/vibrator-default.rc
-odm/lib/android.hardware.vibrator-V2-ndk.so
-odm/lib/libaacvibrator.so
-odm/lib/libsivibrator.so
-odm/lib/vendor.aac.hardware.richtap.vibrator-V2-ndk.so
-odm/lib64/android.hardware.vibrator-V2-ndk.so
-odm/lib64/libaacvibrator.so
-odm/lib64/libsivibrator.so
-odm/lib64/vendor.aac.hardware.richtap.vibrator-V2-ndk.so
-vendor/lib/hw/vibrator.default.so
-vendor/lib/libvibratorutils.so
-vendor/lib64/hw/vibrator.default.so
-vendor/lib64/libvibratorutils.so
-
 # Voice
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
@@ -5850,7 +5827,6 @@ vendor/etc/eva/facelandmark/weight_2.dat
 vendor/etc/eva/facelandmark/weight_3_1.dat
 vendor/etc/eva/facelandmark/weight_3_2.dat
 vendor/etc/eva/itof/tuning_params_sensor_type_1.json
-vendor/etc/excluded-input-devices.xml
 vendor/etc/ftm_test_config_cliffs-mtp-wcd9395-snd-card
 vendor/etc/ftm_test_config_cliffs-mtp-wsa883x-snd-card
 vendor/etc/ftm_test_config_cliffs-qrd-snd-card
