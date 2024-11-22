@@ -166,8 +166,6 @@ odm/lib/hw/audio.binaural_record.default.so
 odm/lib/hw/audio.virtual.default.so
 odm/lib64/hw/audio.binaural_record.default.so
 odm/lib64/hw/audio.virtual.default.so
-vendor/bin/hw/android.hardware.audio.service_64
-vendor/etc/init/android.hardware.audio.service_64.rc
 vendor/lib/android.hardware.audio.common-util.so
 vendor/lib/android.hardware.audio.common-V1-ndk.so
 vendor/lib/android.hardware.audio.common@2.0-util.so
@@ -218,57 +216,7 @@ vendor/lib/hw/android.hardware.audio@7.1-impl.so
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.usb.default.so
-vendor/lib64/android.hardware.audio.common-util.so
-vendor/lib64/android.hardware.audio.common-V1-ndk.so
-vendor/lib64/android.hardware.audio.common@2.0-util.so
-vendor/lib64/android.hardware.audio.common@4.0-util.so
-vendor/lib64/android.hardware.audio.common@4.0.so
-vendor/lib64/android.hardware.audio.common@5.0-util.so
-vendor/lib64/android.hardware.audio.common@5.0.so
-vendor/lib64/android.hardware.audio.common@6.0-util.so
-vendor/lib64/android.hardware.audio.common@6.0.so
-vendor/lib64/android.hardware.audio.common@7.0-enums.so
-vendor/lib64/android.hardware.audio.common@7.0-util.so
-vendor/lib64/android.hardware.audio.common@7.0.so
-vendor/lib64/android.hardware.audio.common@7.1-enums.so
-vendor/lib64/android.hardware.audio.common@7.1-util.so
-vendor/lib64/android.hardware.audio.effect@2.0-util.so
-vendor/lib64/android.hardware.audio.effect@2.0.so
-vendor/lib64/android.hardware.audio.effect@4.0-util.so
-vendor/lib64/android.hardware.audio.effect@4.0.so
-vendor/lib64/android.hardware.audio.effect@5.0-util.so
-vendor/lib64/android.hardware.audio.effect@5.0.so
-vendor/lib64/android.hardware.audio.effect@6.0-util.so
-vendor/lib64/android.hardware.audio.effect@6.0.so
-vendor/lib64/android.hardware.audio.effect@7.0-util.so
-vendor/lib64/android.hardware.audio.effect@7.0.so
-vendor/lib64/android.hardware.audio@2.0-util.so
-vendor/lib64/android.hardware.audio@2.0.so
-vendor/lib64/android.hardware.audio@4.0-util.so
-vendor/lib64/android.hardware.audio@4.0.so
-vendor/lib64/android.hardware.audio@5.0-util.so
-vendor/lib64/android.hardware.audio@5.0.so
-vendor/lib64/android.hardware.audio@6.0-util.so
-vendor/lib64/android.hardware.audio@6.0.so
-vendor/lib64/android.hardware.audio@7.0-util.so
-vendor/lib64/android.hardware.audio@7.0.so
-vendor/lib64/android.hardware.audio@7.1-util.so
-vendor/lib64/android.hardware.audio@7.1.so
-vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so
-vendor/lib64/hw/android.hardware.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.audio@4.0-impl.so
-vendor/lib64/hw/android.hardware.audio@5.0-impl.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio@7.0-impl.so
-vendor/lib64/hw/android.hardware.audio@7.1-impl.so
-vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.pineapple.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/libqc2audio_hwaudiocodec.so
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
@@ -361,24 +309,16 @@ vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
 vendor/lib/vendor.qti.hardware.btconfigstore@2.0.so
-vendor/lib64/android.hardware.bluetooth.audio-V3-ndk.so
-vendor/lib64/android.hardware.bluetooth.audio@2.0.so
-vendor/lib64/android.hardware.bluetooth.audio@2.1.so
-vendor/lib64/android.hardware.bluetooth@1.0.so
-vendor/lib64/android.hardware.bluetooth@1.1.so
 vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so
 vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-qti.so
-vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib64/libbluetooth_audio_session.so
-vendor/lib64/libbluetooth_audio_session_aidl.so
 vendor/lib64/libbluetooth_audio_session_aidl_qti.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
@@ -505,23 +445,6 @@ system_ext/lib/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
 
 # Camera
-odm/lib/android.hardware.camera.common@1.0.so
-odm/lib/android.hardware.camera.device@1.0.so
-odm/lib/android.hardware.camera.device@3.2.so
-odm/lib/android.hardware.camera.device@3.3.so
-odm/lib/android.hardware.camera.device@3.4.so
-odm/lib/android.hardware.camera.device@3.5.so
-odm/lib/android.hardware.camera.device@3.6.so
-odm/lib/android.hardware.camera.device@3.7.so
-odm/lib/android.hardware.camera.metadata@3.2.so
-odm/lib/android.hardware.camera.metadata@3.3.so
-odm/lib/android.hardware.camera.metadata@3.4.so
-odm/lib/android.hardware.camera.metadata@3.5.so
-odm/lib/android.hardware.camera.metadata@3.6.so
-odm/lib/android.hardware.camera.provider@2.4.so
-odm/lib/android.hardware.camera.provider@2.5.so
-odm/lib/android.hardware.camera.provider@2.6.so
-odm/lib/android.hardware.camera.provider@2.7.so
 odm/lib/lib2DSlender.so
 odm/lib/libaiseg.so
 odm/lib/libalCFR.so
@@ -592,23 +515,6 @@ odm/lib/soundfx/liboplus_spatializer.so
 odm/lib/soundfx/liboppo_audiox_sw_effects.so
 odm/lib/vendor.oplus.hardware.camera_rfi-V1-ndk.so
 odm/lib/vendor.oplus.hardware.camera_rfi-V1-service-impl.so
-odm/lib64/android.hardware.camera.common@1.0.so
-odm/lib64/android.hardware.camera.device@1.0.so
-odm/lib64/android.hardware.camera.device@3.2.so
-odm/lib64/android.hardware.camera.device@3.3.so
-odm/lib64/android.hardware.camera.device@3.4.so
-odm/lib64/android.hardware.camera.device@3.5.so
-odm/lib64/android.hardware.camera.device@3.6.so
-odm/lib64/android.hardware.camera.device@3.7.so
-odm/lib64/android.hardware.camera.metadata@3.2.so
-odm/lib64/android.hardware.camera.metadata@3.3.so
-odm/lib64/android.hardware.camera.metadata@3.4.so
-odm/lib64/android.hardware.camera.metadata@3.5.so
-odm/lib64/android.hardware.camera.metadata@3.6.so
-odm/lib64/android.hardware.camera.provider@2.4.so
-odm/lib64/android.hardware.camera.provider@2.5.so
-odm/lib64/android.hardware.camera.provider@2.6.so
-odm/lib64/android.hardware.camera.provider@2.7.so
 odm/lib64/camera/awb_parameter_default.bin
 odm/lib64/camera/awb_parameter_qtech_s5k3p9.bin
 odm/lib64/camera/awb_parameter_sunny_imx355.bin
@@ -764,9 +670,6 @@ system_ext/lib64/vendor.oplus.hardware.camera.slogan-V1-ndk_platform.so
 system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
 vendor/etc/ASR_binary/Whisper/libSnpeHtpV75Skel.so
-vendor/lib/android.hardware.camera.common-V1-ndk.so
-vendor/lib/android.hardware.camera.device-V2-ndk.so
-vendor/lib/android.hardware.camera.metadata-V2-ndk.so
 vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libsnsapi.so
@@ -775,10 +678,6 @@ vendor/lib/libsns_device_mode_stub.so
 vendor/lib/vendor.qti.hardware.camera.aon-V1-ndk.so
 vendor/lib/vendor.qti.hardware.camera.offlinecamera-V1-ndk.so
 vendor/lib/vendor.qti.hardware.camera.offlinecamera-V2-ndk.so
-vendor/lib64/android.hardware.camera.common-V1-ndk.so
-vendor/lib64/android.hardware.camera.device-V2-ndk.so
-vendor/lib64/android.hardware.camera.metadata-V2-ndk.so
-vendor/lib64/android.hardware.camera.provider-V2-ndk.so
 vendor/lib64/camera/arcsoft_calibration_uw.bin
 vendor/lib64/camera/arcsoft_calibration_wt.bin
 vendor/lib64/camera/arcsoft_dc_calibration_t.bin
@@ -919,7 +818,6 @@ vendor/lib64/camera/imx809_3.pb
 vendor/lib64/hw/camera.qcom.sm8650.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamxcommonutils.so
 vendor/lib64/libcamxexternalformatutils.so
@@ -1853,10 +1751,7 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
 # DRM-Hardware
-vendor/bin/hw/android.hardware.drm-service.clearkey
-vendor/etc/init/android.hardware.drm-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
-vendor/lib64/android.hardware.drm-V1-ndk.so
 
 # DRM-Qteeconnector
 vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
@@ -1980,11 +1875,6 @@ vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so
 vendor/lib/vendor.qti.hardware.display.mapperextensions@1.2.so
 vendor/lib/vendor.qti.hardware.display.mapperextensions@1.3.so
 vendor/lib/vendor.qti.hardware.display.postproc-V1-ndk.so
-vendor/lib64/android.hardware.graphics.allocator-V1-ndk.so
-vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so
-vendor/lib64/android.hardware.graphics.composer@2.1.so
-vendor/lib64/android.hardware.graphics.composer@2.2.so
-vendor/lib64/android.hardware.graphics.composer@2.3.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
 vendor/lib64/hw/gralloc.default.so
 vendor/lib64/libdisplaydebug.so
@@ -4344,7 +4234,6 @@ vendor/lib/liblowi_client.so
 vendor/lib/liblowi_common.so
 vendor/lib/liblowi_wifihal.so
 vendor/lib/libslimclient.so
-vendor/lib64/android.hardware.gnss-V3-ndk.so
 vendor/lib64/hw/android.hardware.gnss-aidl-impl-qti.so
 vendor/lib64/libbatching.so
 vendor/lib64/libdataitems.so
@@ -4391,8 +4280,6 @@ vendor/bin/hw/android.hardware.gatekeeper-service-qti
 vendor/etc/init/android.hardware.gatekeeper-service-qti.rc
 vendor/lib/android.hardware.gatekeeper-V1-ndk.so
 vendor/lib/android.hardware.gatekeeper@1.0.so
-vendor/lib64/android.hardware.gatekeeper-V1-ndk.so
-vendor/lib64/android.hardware.gatekeeper@1.0.so
 
 # Google
 vendor/apex/com.google.android.widevine.nonupdatable.apex
@@ -4439,15 +4326,9 @@ vendor/lib/android.hardware.health-V1-ndk.so
 vendor/lib/android.hardware.health@1.0.so
 vendor/lib/android.hardware.health@2.0.so
 vendor/lib/android.hardware.health@2.1.so
-vendor/lib64/android.hardware.health-V1-ndk.so
-vendor/lib64/android.hardware.health-V2-ndk.so
-vendor/lib64/android.hardware.health@1.0.so
-vendor/lib64/android.hardware.health@2.0.so
-vendor/lib64/android.hardware.health@2.1.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/permissions/android.hardware.hardware_keystore.xml
 vendor/etc/permissions/android.hardware.keystore.app_attest_key.xml
 vendor/lib/android.hardware.keymaster-V3-ndk.so
 vendor/lib/android.hardware.keymaster@3.0.so
@@ -4459,11 +4340,6 @@ vendor/lib/libkeymasterutils.so
 vendor/lib/libkeymaster_messages.so
 vendor/lib/libqtikeymaster4.so
 vendor/lib/libspcom.so
-vendor/lib64/android.hardware.keymaster-V3-ndk.so
-vendor/lib64/android.hardware.keymaster@3.0.so
-vendor/lib64/android.hardware.keymaster@4.0.so
-vendor/lib64/android.hardware.keymaster@4.1.so
-vendor/lib64/android.system.keystore2-V1-ndk.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
@@ -4499,19 +4375,8 @@ vendor/lib64/vendor.qti.latencyaidlservice-V1-ndk.so
 # Lights
 vendor/bin/hw/vendor.qti.hardware.lights.service
 vendor/etc/init/vendor.qti.hardware.lights.service.rc
-vendor/lib64/android.hardware.light-V2-ndk.so
 
 # Listen
-vendor/lib/android.hardware.soundtrigger@2.1.so
-vendor/lib/android.hardware.soundtrigger@2.2.so
-vendor/lib/android.hardware.soundtrigger@2.3.so
-vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib64/android.hardware.soundtrigger@2.1.so
-vendor/lib64/android.hardware.soundtrigger@2.2.so
-vendor/lib64/android.hardware.soundtrigger@2.3.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
 vendor/lib64/hw/sound_trigger.primary.pineapple.so
 vendor/lib64/liblistensoundmodel2vendor.so
 
@@ -4554,7 +4419,6 @@ vendor/lib/libmm-omxcore.so
 vendor/lib/libOmxCore.so
 vendor/lib/libstagefrighthw.so
 vendor/lib64/libmm-omxcore.so
-vendor/lib64/libOmxCore.so
 vendor/lib64/libstagefrighthw.so
 
 # NFC
@@ -4729,8 +4593,6 @@ vendor/bin/hw/android.hardware.secure_element-service.qti
 vendor/etc/init/android.hardware.secure_element-service.qti.rc
 vendor/lib/android.hardware.secure_element-V1-ndk.so
 vendor/lib/android.hardware.secure_element@1.0.so
-vendor/lib64/android.hardware.secure_element-V1-ndk.so
-vendor/lib64/android.hardware.secure_element@1.0.so
 
 # Oplus
 odm/bin/engineer_vendor_shell.sh
@@ -5069,10 +4931,6 @@ vendor/bin/hw/android.hardware.power-service
 vendor/etc/init/android.hardware.power-service.rc
 vendor/lib/hw/power.default.so
 vendor/lib/vendor.qti.hardware.power.powermodule-V1-ndk.so
-vendor/lib64/android.hardware.power-V4-ndk.so
-vendor/lib64/android.hardware.power@1.0.so
-vendor/lib64/android.hardware.power@1.1.so
-vendor/lib64/android.hardware.power@1.2.so
 vendor/lib64/hw/power.default.so
 vendor/lib64/vendor.qti.hardware.power.powermodule-V1-ndk.so
 
@@ -5190,22 +5048,6 @@ vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server-V1-ndk.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib64/android.hardware.radio-V2-ndk.so
-vendor/lib64/android.hardware.radio.config-V2-ndk.so
-vendor/lib64/android.hardware.radio.data-V2-ndk.so
-vendor/lib64/android.hardware.radio.messaging-V2-ndk.so
-vendor/lib64/android.hardware.radio.modem-V2-ndk.so
-vendor/lib64/android.hardware.radio.network-V2-ndk.so
-vendor/lib64/android.hardware.radio.sap-V1-ndk.so
-vendor/lib64/android.hardware.radio.sim-V2-ndk.so
-vendor/lib64/android.hardware.radio.voice-V2-ndk.so
-vendor/lib64/android.hardware.radio@1.0.so
-vendor/lib64/android.hardware.radio@1.1.so
-vendor/lib64/android.hardware.radio@1.2.so
-vendor/lib64/android.hardware.radio@1.3.so
-vendor/lib64/android.hardware.radio@1.4.so
-vendor/lib64/android.hardware.radio@1.5.so
-vendor/lib64/android.hardware.radio@1.6.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/liblqe.so
@@ -5494,9 +5336,7 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/sns_reg_config
 
 # Sensors
-vendor/bin/hw/android.hardware.sensors-service.multihal
 vendor/bin/sensors.qti
-vendor/etc/init/android.hardware.sensors-service-multihal.rc
 vendor/lib/android.hardware.sensors@1.0.so
 vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib/android.hardware.sensors@2.0.so
@@ -5506,12 +5346,6 @@ vendor/lib/libsensorcal.so
 vendor/lib/libsensorslog.so
 vendor/lib/libssc_default_listener.so
 vendor/lib/sensors.qsh.so
-vendor/lib64/android.hardware.sensors-V2-ndk.so
-vendor/lib64/android.hardware.sensors@1.0.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
-vendor/lib64/android.hardware.sensors@2.0.so
-vendor/lib64/android.hardware.sensors@2.1.so
-vendor/lib64/hw/sensors.dynamic_sensor_hal.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libSensorsInterface.so
@@ -5538,9 +5372,6 @@ vendor/etc/init/android.hardware.thermal-service.qti.rc
 vendor/etc/init/init_thermal-engine-v2.rc
 vendor/etc/thermal-engine.conf
 vendor/lib/libthermalclient.so
-vendor/lib64/android.hardware.thermal-V1-ndk.so
-vendor/lib64/android.hardware.thermal@1.0.so
-vendor/lib64/android.hardware.thermal@2.0.so
 vendor/lib64/liblmthermallistner.so
 vendor/lib64/libthermalclient.so
 
@@ -6013,8 +5844,6 @@ vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.s
 vendor/etc/qguard.json
 vendor/etc/qvirtmgr-vndr.json
 vendor/etc/recovery-resource.dat
-vendor/etc/res/images/default/charger/battery_fail.png
-vendor/etc/res/images/default/charger/battery_scale.png
 vendor/etc/SDA_platform_license.pfm
 vendor/etc/smomo_setting.xml
 vendor/etc/snapdragon_color_libs_config.xml
@@ -6228,30 +6057,10 @@ vendor/lib/vendor.qti.qesdhal@1.3.so
 vendor/lib/vendor.qti.qesdsys-V4-ndk.so
 vendor/lib/vendor.qti.qspmhal-impl.so
 vendor/lib/vendor.qti.qspmhal-V1-ndk.so
-vendor/lib64/android.automotive.watchdog-V2-ndk.so
-vendor/lib64/android.frameworks.sensorservice-V1-ndk.so
-vendor/lib64/android.frameworks.sensorservice@1.0.so
 vendor/lib64/android.frameworks.stats-V1-ndk.so
 vendor/lib64/android.hardware.boot-V1-ndk.so
 vendor/lib64/android.hardware.boot@1.0.so
 vendor/lib64/android.hardware.boot@1.1.so
-vendor/lib64/android.hardware.contexthub-V2-ndk.so
-vendor/lib64/android.hardware.identity-V5-ndk.so
-vendor/lib64/android.hardware.media.bufferpool2-V1-ndk.so
-vendor/lib64/android.hardware.media.c2@1.0.so
-vendor/lib64/android.hardware.media.c2@1.1.so
-vendor/lib64/android.hardware.media.c2@1.2.so
-vendor/lib64/android.hardware.security.keymint-V1-ndk.so
-vendor/lib64/android.hardware.security.keymint-V2-ndk.so
-vendor/lib64/android.hardware.security.keymint-V3-ndk.so
-vendor/lib64/android.hardware.security.rkp-V3-ndk.so
-vendor/lib64/android.hardware.security.secureclock-V1-ndk.so
-vendor/lib64/android.hardware.security.sharedsecret-V1-ndk.so
-vendor/lib64/android.hardware.tetheroffload-V1-ndk.so
-vendor/lib64/android.hardware.usb-V1-ndk.so
-vendor/lib64/android.hidl.allocator@1.0.so
-vendor/lib64/android.media.audio.common.types-V2-ndk.so
-vendor/lib64/android.system.net.netd-V1-ndk.so
 vendor/lib64/bm3b68v04s12n52.bin
 vendor/lib64/bm3b68v04s12n53.bin
 vendor/lib64/bm3b73v04s12n02.bin
@@ -6419,10 +6228,8 @@ vendor/lib64/libar-gsl.so
 -vendor/lib64/libar-pal.so
 vendor/lib64/libarmemlog.so
 vendor/lib64/libats.so
-vendor/lib64/libavservices_minijail.so
 vendor/lib64/libbacklight-calib.so
 vendor/lib64/libbatterylistener.so
-vendor/lib64/libbinderdebug.so
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libboot_control_qti.so
@@ -6435,11 +6242,6 @@ vendor/lib64/libchilog.so
 vendor/lib64/libclstc_algorithm_adapter.so
 vendor/lib64/libclstc_gcp_adapter.so
 vendor/lib64/libclstc_tm.so
-vendor/lib64/libcodec2_hidl@1.0.so
-vendor/lib64/libcodec2_hidl@1.1.so
-vendor/lib64/libcodec2_hidl@1.2.so
-vendor/lib64/libcodec2_hidl_plugin.so
-vendor/lib64/libcodec2_vndk.so
 vendor/lib64/libcommonchiutils.so
 vendor/lib64/libcustomva_intf.so
 vendor/lib64/libcv_common.so
@@ -6487,12 +6289,10 @@ vendor/lib64/libhdrvivid.so
 vendor/lib64/libhdr_backlight_adapter.so
 vendor/lib64/libhdr_stub.so
 vendor/lib64/libhfp_pal.so
-vendor/lib64/libhidltransport.so
 vendor/lib64/libhidparser.so
 vendor/lib64/libhistogram.so
 vendor/lib64/libhme.so
 vendor/lib64/libhotword_intf.so
-vendor/lib64/libhwbinder.so
 vendor/lib64/libhwconfigurationutil.so
 vendor/lib64/libiccprofile.so
 vendor/lib64/libintervmipc.so
@@ -6785,7 +6585,6 @@ vendor/lib64/vendor.pixelworks.hardware.feature@1.1.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
 -vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.dpmaidlservice-V1-ndk.so
