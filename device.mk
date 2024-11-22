@@ -40,6 +40,11 @@ PRODUCT_PACKAGES += \
 BOARD_SHIPPING_API_LEVEL := 34
 PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
 
+# Biometrics
+PRODUCT_PACKAGES += \
+    android.frameworks.cameraservice.device-V1-ndk.vendor \
+    android.frameworks.cameraservice.service-V1-ndk.vendor
+    
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
@@ -52,7 +57,7 @@ PRODUCT_PACKAGES += \
 # Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.common-V4-ndk.vendor
-    
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
