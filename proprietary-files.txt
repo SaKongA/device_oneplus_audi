@@ -5992,7 +5992,6 @@ vendor/etc/init/vmmgr.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/init/wfdvndservice.rc
 vendor/etc/IPACM_Filter_cfg.xml
-vendor/etc/linker.config.pb
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lm/LightningLaunchesFeature.xml
