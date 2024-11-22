@@ -5708,7 +5708,6 @@ vendor/bin/GPTEE_Sample_client
 vendor/bin/gpu_counter_producer
 vendor/bin/hal_proxy_daemon
 vendor/bin/hw/android.hardware.boot-service.qti
-vendor/bin/hw/android.hardware.cas-service.example
 vendor/bin/hw/android.hardware.contexthub-service.qmi
 vendor/bin/hw/android.hardware.identity-service-qti
 vendor/bin/hw/android.hardware.security.keymint-service-qti
@@ -5917,7 +5916,6 @@ vendor/etc/init/android.hardware.identity-service-qti.rc
 vendor/etc/init/android.hardware.security.keymint-service-qti.rc
 vendor/etc/init/android.hardware.usb-service.qti.rc
 vendor/etc/init/boringssl_self_test.rc
-vendor/etc/init/cas-default.rc
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
 vendor/etc/init/dcfd.rc
@@ -6315,7 +6313,6 @@ vendor/lib64/android.frameworks.stats-V1-ndk.so
 vendor/lib64/android.hardware.boot-V1-ndk.so
 vendor/lib64/android.hardware.boot@1.0.so
 vendor/lib64/android.hardware.boot@1.1.so
-vendor/lib64/android.hardware.cas-V1-ndk.so
 vendor/lib64/android.hardware.contexthub-V2-ndk.so
 vendor/lib64/android.hardware.identity-V5-ndk.so
 vendor/lib64/android.hardware.media.bufferpool2-V1-ndk.so
