@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Graphics
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V4-ndk.vendor
+    
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
@@ -60,7 +64,7 @@ PRODUCT_COPY_FILES += \
 # Linker
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     $(LOCAL_PATH)/configs/linker.config.json
-    
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayAudi \
