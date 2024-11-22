@@ -6483,7 +6483,7 @@ vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so
 vendor/lib64/libadm.so
 vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libagm.so
+-vendor/lib64/libagm.so
 vendor/lib64/libagmclient.so
 vendor/lib64/libagmmixer.so
 vendor/lib64/libagm_compress_plugin.so
@@ -6498,7 +6498,7 @@ vendor/lib64/libappclassifier.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
-vendor/lib64/libar-pal.so
+-vendor/lib64/libar-pal.so
 vendor/lib64/libarmemlog.so
 vendor/lib64/libats.so
 vendor/lib64/libavservices_minijail.so
@@ -6866,7 +6866,7 @@ vendor/lib64/vendor.pixelworks.hardware.feature-V1-ndk.so
 vendor/lib64/vendor.pixelworks.hardware.feature@1.0.so
 vendor/lib64/vendor.pixelworks.hardware.feature@1.1.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
