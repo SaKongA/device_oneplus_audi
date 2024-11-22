@@ -5673,7 +5673,6 @@ vendor/bin/ar_util_in_test_example
 vendor/bin/athdiag
 vendor/bin/audioadsprpcd
 vendor/bin/audiodsd2pcmtest
-vendor/bin/boringssl_self_test64
 vendor/bin/ccid_daemon_nr
 vendor/bin/checkpoint_gc
 vendor/bin/cnss_cli
@@ -5831,8 +5830,6 @@ vendor/etc/audio/sku_pineapple/resourcemanager_pineapple_qrd.xml
 vendor/etc/audio/sku_pineapple/resourcemanager_pineapple_qrd_sku2.xml
 vendor/etc/audio/sku_pineapple_qssi/audio_policy_configuration.xml
 vendor/etc/batching.conf
-vendor/etc/boringssl_self_test.zygote64.rc
-vendor/etc/boringssl_self_test.zygote64_32.rc
 vendor/etc/card-defs.xml
 vendor/etc/charger_fw_fstab.qti
 vendor/etc/chre/preloaded_nanoapps.json
@@ -5915,7 +5912,6 @@ vendor/etc/init/android.hardware.contexthub-service.qmi.rc
 vendor/etc/init/android.hardware.identity-service-qti.rc
 vendor/etc/init/android.hardware.security.keymint-service-qti.rc
 vendor/etc/init/android.hardware.usb-service.qti.rc
-vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
 vendor/etc/init/dcfd.rc
