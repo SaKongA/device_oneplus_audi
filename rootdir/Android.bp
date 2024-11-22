@@ -10,3 +10,10 @@ prebuilt_etc {
     sub_dir: "init",
     recovery: true,
 }
+
+prebuilt_etc {
+    name: "init.audi.rc",
+    src: "etc/init.audi.rc",
+    sub_dir: "init",
+    vendor: true,
+}

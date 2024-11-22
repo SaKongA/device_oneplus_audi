@@ -142,6 +142,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.audi.rc \
     init.recovery.qcom.rc
 
 PRODUCT_COPY_FILES += \
