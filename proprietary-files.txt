@@ -1902,8 +1902,6 @@ odm/bin/hw/vendor.oplus.hardware.fido.fido2ca@1.0-service
 odm/bin/hw/vendor.oplus.hardware.fido.fidoca@1.0-service
 odm/etc/init/vendor.oplus.hardware.fido.fido2ca@1.0-service.rc
 odm/etc/init/vendor.oplus.hardware.fido.fidoca@1.0-service.rc
-odm/etc/permissions/vendor-oplus-hardware-biometrics-fido.xml
-odm/etc/permissions/vendor-oplus-hardware-biometrics-fido2.xml
 odm/lib/libfido2_factory.so
 odm/lib/libfido_factory.so
 odm/lib/vendor.oplus.hardware.fido.fido2ca-V1-ndk.so
@@ -1941,8 +1939,6 @@ odm/bin/init.oplus.fingerprints.sh
 odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
-odm/etc/permissions/oplus.fingerprint.unlock_without_icon.xml
-odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml
 odm/firmware/aw8697_fingerprint_effect1_RTP_110.bin
 odm/firmware/aw8697_fingerprint_effect1_RTP_110_162Hz.bin
 odm/firmware/aw8697_fingerprint_effect1_RTP_110_165Hz.bin
@@ -4438,9 +4434,6 @@ odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_30
 odm/etc/nfc/sn220u.bin_sn220tu_fw_01_01_36
 odm/etc/nfc/st21nfc_fw.bin_st21h
 odm/etc/nfc/st21nfc_fw7.bin_st21h
-odm/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint-nxp.xml
-odm/etc/permissions/com.oplus.nfc_feature.xml
-odm/etc/permissions/oplus_nfc_default_grant_permissions_list.xml
 odm/lib/android.hardware.nfc-V1-ndk.so
 odm/lib/android.hardware.nfc@1.0.so
 odm/lib/android.hardware.nfc@1.1.so
@@ -4558,19 +4551,6 @@ odm/etc/oplusmetaaudio/HP_MUSIC_BLUETOOTH.bin
 odm/etc/oplusmetaaudio/HP_MUSIC_DIGITAL.bin
 odm/etc/oplusmetaaudio/HP_MUSIC_GALILEO.bin
 odm/etc/oplus_ftm_smart_pa.wav
-odm/etc/orms/orms_core_config.xml
-odm/etc/permissions/com.oplus.features_power.xml
-odm/etc/permissions/oplus.hardware.locksettings.jc-weaver.xml
-odm/etc/permissions/vendor-oplus-hardware-charger.xml
-odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml
-odm/etc/permissions/vendor-oplus-hardware-engineer-V1.xml
-odm/etc/permissions/vendor-oplus-hardware-misc-V1.xml
-odm/etc/permissions/vendor-oplus-hardware-olc2.xml
-odm/etc/permissions/vendor-oplus-hardware-oplusSensor-V1.xml
-odm/etc/permissions/vendor-oplus-hardware-riskdetect.xml
-odm/etc/permissions/vendor-oplus-hardware-stability-oproject-V1.xml
-odm/etc/permissions/vendor-oplus-hardware-touch-V1.xml
-odm/etc/permissions/vendor.oplus.hardware.rpmh-V1.xml
 odm/etc/sensor/config/palawan_mtp_oplus_measurement.json
 odm/etc/sensor/config/palawan_mtp_oplus_rotation_detect.json
 odm/init.oplus.face.rc
