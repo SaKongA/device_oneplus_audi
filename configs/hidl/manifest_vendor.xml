@@ -103,7 +103,4 @@
         <transport>hwbinder</transport>
         <fqname>@1.1::IImsFactory/default</fqname>
     </hal>
-    <sepolicy>
-        <version>34.0</version>
-    </sepolicy>
 </manifest>
