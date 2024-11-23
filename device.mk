@@ -180,7 +180,6 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 # Media
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2.vendor \
-    libOmxCore \
     libavservices_minijail \
     libcodec2_hidl@1.0.vendor \
     libcodec2_hidl@1.1.vendor \
